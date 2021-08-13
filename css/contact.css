@@ -1,0 +1,192 @@
+
+
+/*Start Contact ways*/
+.contact-us-ways {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.contact-us-ways .header {
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.contact-us-ways .card {
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+
+.contact-us-ways .card i{
+    font-size: 50px;
+    color: #ec1c23;
+}
+
+.contact-us-ways .card:hover {
+    transform: scale(1.03);
+}
+
+.contact-us-ways .row {
+    margin: 0;
+}
+
+.contact-us-ways h1 {
+    font-weight: bold;
+    color: #000;
+}
+
+.contact-us-ways .card h5 {
+    color: #08526d;
+
+}
+
+.contact-us-ways .card h6 {
+    color: #acacac;
+    font-size: 12px;
+}
+
+.contact-us-ways .card p {
+    color: #666666;
+    font-size: 16px;
+}
+
+.contact-us-ways .card a {
+    color: #ec1c23;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/*Responsive featured work for mobile  */
+@media (max-width: 576px) {
+    .contact-us-ways {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .contact-us-ways .header {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+/*End Contact ways*/
+
+/*Start Contact now*/
+.contact-now {
+    background-color: #08526d;
+    padding: 30px;
+}
+
+.contact-now .input-info{
+    margin: 30px;
+}
+
+.contact-now .message-input {
+    margin: 1px;
+    padding: 1px;
+    width: 100%;
+    height: 150px;
+    resize: none;
+}
+
+
+.contact-now .input-info label,input{
+    width: 100%;
+}
+
+.contact-now img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.contact-now img:hover {
+    transform: scale(1.01);
+}
+
+.contact-now .content {
+    padding: 0;
+}
+
+.contact-now .content:first-child {
+    background-color: #08526d;
+    color: #FFF;
+    padding: 20px 40px 40px 40px;
+}
+
+.contact-now button {
+    background-color: #ec1c23;
+    color: #FFF;
+    border: 0;
+    width: 100%;
+    padding: 8px 20px 8px 20px;
+    text-decoration: none;
+    top: 20px;
+    position: relative;
+}
+
+.contact-now p {
+    margin-top: 20px;
+    line-height: 2;
+}
+
+.contact-now .content h1 {
+    margin-top: 30px;
+}
+
+.contact-now .content .navbar-brand > span {
+    font-size: 50px;
+}
+
+.contact-now .content .navbar-brand span:first-child {
+    color: #FFF;
+    font-weight: bold;
+}
+
+.contact-now .content .navbar-brand span:last-child {
+    color: #ec1c23;
+}
+
+/*End Contact now*/
+
+
+/*Start Contact page info*/
+.contact-page-info {
+    background-color: #dee6e9;
+}
+
+.contact-page-info img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.contact-page-info img:hover {
+    transform: scale(1.01);
+}
+
+.contact-page-info .content {
+    padding: 0;
+}
+
+.contact-page-info .content:last-child {
+    background-color: #dee6e9;
+    color: #000000;
+    padding: 40px 40px 40px 40px;
+}
+
+.contact-page-info .content .second-col {
+    margin-top: 20px;
+}
+
+.contact-page-info .content .second-col h4{
+    padding-bottom: 10px;
+    color: #08526d;
+}
+.contact-page-info .content .second-col i{
+    margin: 0 10px 0 0;
+    color: #08526d;
+}
+
+
+
+/*End Contact page info*/
