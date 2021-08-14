@@ -1,0 +1,101 @@
+/*Start Blog*/
+.blog {
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.blog .card {
+    margin-bottom: 30px;
+}
+
+.blog .card:hover {
+    transform: scale(1.03);
+}
+
+.blog .row {
+    margin: 0;
+}
+
+.blog h1 {
+    font-weight: bold;
+    color: #000;
+}
+
+.blog .header p {
+    font-size: 18px;
+    color: #666666;
+    line-height: 2;
+    margin: 0 auto 50px;
+}
+
+.blog .card h5 {
+    color: #08526d;
+
+}
+
+.blog .card h6 {
+    color: #acacac;
+    font-size: 12px;
+}
+
+.blog .card p {
+    color: #666666;
+    font-size: 16px;
+}
+
+.blog .card a {
+    color: #ec1c23;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.blog .card-body{
+    padding: 0;
+}
+
+.blog .card-body .content-card{
+    padding: 1rem 1rem;
+}
+
+.blog .card-body .desc{
+    background-color: #f6f9fa;
+    color: #666666;
+    font-size: 16px;
+    padding: 4px;
+}
+
+
+.blog .card-body .desc p{
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+
+.blog .desc .icon-span{
+    font-size: 12px;
+    margin: 0;
+    font-weight: normal;
+    padding: 0;
+    position: relative;
+    bottom: 2px;
+    left: 4px;
+}
+/*End Blog*/
+
+/*Start Pagination*/
+.pagination-blog{
+    margin: 0 0 40px 0;
+}
+/*Start Pagination*/
+
+
+/*Responsive featured work for mobile  */
+@media (max-width: 576px) {
+    .blog {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+/*End Latest post*/

@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Bootstrap</title>
+    <title>Article</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/article-view.css">
     <!--Icon site-->
     <script src="https://kit.fontawesome.com/deeee70e6c.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
 <!--Start upper bar-->
@@ -70,7 +71,8 @@
                                             <input type="text" placeholder="Subject" name="Subject" required>
                                         </label></p>
                                         <label>
-                                            <textarea class="message-input" type="textarea" placeholder="Message" name="Message" required></textarea>
+                                            <textarea class="message-input" type="textarea" placeholder="Message"
+                                                      name="Message" required></textarea>
                                         </label>
                                         <button type="submit">Send</button>
                                     </form>
@@ -105,7 +107,7 @@
                 <li class="nav-item">
                     <a class="nav-link active" href="about.html">About</a>
                 </li>
-                <!--<li class="nav-item">
+               <!-- <li class="nav-item">
                     <a class="nav-link" href="work.html">Work</a>
                 </li>-->
                 <li class="nav-item">
@@ -121,140 +123,159 @@
 </nav>
 <!--End NavBar-->
 
-<!--Start Slider-->
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-        <h1>We're an Independent<br>Design and <span>Development</span><br>Agency.</h1>
-        <div class="overlay"></div>
-        <div class="carousel-item active">
-            <img src="img/slide-2.jpg" class="d-block w-100" alt="slide-img">
-        </div>
-        <div class="carousel-item">
-            <img src="img/slide-1.jpeg" class="d-block w-100" alt="slide-img">
-        </div>
-        <div class="carousel-item">
-            <img src="img/slide-3.jpg" class="d-block w-100" alt="slide-img">
-        </div>
-    </div>
+<!--Start article view-->
+<div class="article-view">
+    <div class="article-content container">
+        <div class="row">
+            <div class="container">
+                <div class="filter-button row">
+                    <div class="col">
+                        <!-- Example single danger button -->
+                        <div class="dropdown">
+                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                Year
+                            </a>
 
-    <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
+                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink2" data-bs-toggle="dropdown" aria-expanded="false">
+                                Language
+                            </a>
+
+                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink3" data-bs-toggle="dropdown" aria-expanded="false">
+                                Type
+                            </a>
+
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">2021</a></li>
+                                <li><a class="dropdown-item" href="#">2020</a></li>
+                                <li><a class="dropdown-item" href="#">2019</a></li>
+                            </ul>
+
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink2">
+                                <li><a class="dropdown-item" href="#">English</a></li>
+                                <li><a class="dropdown-item" href="#">Arabic</a></li>
+                                <li><a class="dropdown-item" href="#">China</a></li>
+                            </ul>
+
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink3">
+                                <li><a class="dropdown-item" href="#">Covid-19</a></li>
+                                <li><a class="dropdown-item" href="#">Technology</a></li>
+                                <li><a class="dropdown-item" href="#">Sport</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h1>Real milk, no cows needed: Lab-made dairy products are now a reality</h1>
+            <p class="title2_blog">Milk, egg and other animal products can now be brewed in the lab using familiar
+                fermentation processes, Pandya was a recent convert to veganism and was struggling to give up dairy
+                requiring regulators to reconsider what truly makes something "milk" or
+                "cheese"</p>
+            <address class="writer">Authors: Jeanne Segal Ph.D. and Lawrence Robinson</address>
+            <p class="category">Technology<span class="date">11 August 2021</span></p>
+            <p>
+                By <a class="article_by" href="#">Graham Lawton</a>
+            </p>
+            <img src="img/slide-2.jpg" alt="blog">
+            <div class="content-paragraph">
+                <p>BACK IN 2014, bioengineer Ryan Pandya had a demoralising encounter with a bagel. It wasn’t so much
+                    the bagel itself as its filling, a “bland and runny” substance made from soya which was supposed to
+                    resemble cream cheese. Pandya was a recent convert to veganism and was struggling to give up dairy
+                    products. But when life dealt him bad cream cheese, he made ice cream.
+                <p>Today, Pandya’s company Perfect Day is at the vanguard of a food revolution. It makes and sells milk,
+                    but has no cows. Its farm is a bioreactor in which it cultivates microorganisms genetically
+                    engineered to secrete milk proteins. The proteins don’t
+                <p>
+                    BACK IN 2014, bioengineer Ryan Pandya had a demoralising encounter with a bagel. It wasn’t so much the
+                    bagel itself as its filling, a “bland and runny” substance made from soya which was supposed to resemble
+                    cream cheese. Pandya was a recent convert to veganism and was struggling to give up dairy products. But
+                    when life dealt him bad cream cheese, he made ice cream.
+                </p>
+                <p>
+                    Today, Pandya’s company Perfect Day is at the vanguard of a food revolution. It makes and sells milk,
+                    but has no cows. Its farm is a bioreactor in which it cultivates microorganisms genetically engineered
+                    to secrete milk proteins. The proteins don’t …
+                </p>
+                <p class="art_blog">Peer pressure and TV commercials for junk food can make getting your children to eat
+                    well an
+                    uphill struggle. Factor in your own hectic schedule and it’s no wonder so many kids’ diets are built
+                    around
+                    convenience and takeout food. But switching to a healthy diet can have a profound effect on your child’s
+                    health,
+                    helping them to maintain a healthy weight, stabilize their moods, sharpen their minds, and avoid a
+                    variety of
+                    health problems. A healthy diet can also have a profound effect on your child’s sense of mental and
+                    emotional
+                    wellbeing, helping to prevent conditions such as depression, anxiety, bipolar disorder, schizophrenia,
+                    and ADHD.
+
+                    Eating well supports your child’s healthy growth and development into adulthood and may even play a role
+                    in
+                    lowering their risk of suicide. If your child has already been diagnosed with a mental health problem, a
+                    healthy
+                    diet can help them to manage the symptoms and regain control of their health.
+
+                    It’s important to remember that your kids aren’t born with a craving for French fries and pizza and an
+                    aversion
+                    to broccoli and carrots. This conditioning happens over time as they’re exposed to more and more
+                    unhealthy food
+                    choices. However, it is possible to reprogram your children’s food preferences so that they crave
+                    healthier
+                    foods instead.
+
+                    The sooner you introduce wholesome, nutritious choices into a child’s diet, the easier they’ll be able
+                    to
+                    develop a healthy relationship with food that can last them a lifetime. And it can be simpler and less
+                    time-consuming than you imagine. With these tips, you can instill healthy eating habits without turning
+                    mealtimes into a war zone and give your kids the best opportunity to grow into healthy, well-balanced
+                    adults.
+
+                    Encourage healthy eating habits
+                    Whether they’re toddlers or in their teens, children develop a natural preference for the foods they
+                    enjoy the
+                    most. To encourage healthy eating habits, the challenge is to make nutritious choices appealing.
+
+                    Focus on overall diet rather than specific foods. Kids should be eating more whole, minimally processed
+                    food—food that is as close to its natural form as possible—and less packaged and processed food.
+
+                    Be a role model. The childhood impulse to imitate is strong so don’t ask your child to eat vegetables
+                    while you
+                    gorge on potato chips.
+
+                    Disguise the taste of healthier foods. Add vegetables to a beef stew, for example, or mash carrots up
+                    with
+                    mashed potato, or add a sweet dip to slices of apple.
+
+                    Cook more meals at home. Restaurant and takeout meals have more added sugar and unhealthy fat so cooking
+                    at home
+                    can have a huge impact on your kids’ health. If you make large batches, cooking just a few times can be
+                    enough
+                    to feed your family for the whole week.
+
+                    Get kids involved in shopping for groceries and preparing meals. You can teach them about different
+                    foods and
+                    how to read food labels.
+
+                    Make healthy snacks available. Keep plenty of fruit, vegetables, and healthy beverages (water, milk,
+                    pure fruit
+                    juice) on hand so kids avoid unhealthy snacks like soda, chips, and cookies.
+
+                    Limit portion sizes. Don’t insist your child cleans the plate, and never use food as a reward or
+                    bribe.
+            </div>
+        </div>
     </div>
 </div>
-<!--End Slider-->
 
-<!--Start Features-->
-<div class="features text-center">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6 col-lg-3">
-                <i class="fa fa-home fa-2x rounded-circle"></i>
-                <h3>Great Idea</h3>
-                <p>Html Coding icons. SVG and PNG downloads. Get free icons or unlimited royalty-free icons with
-                    NounPro.</p>
-            </div>
-            <div class="col-sm-6 col-lg-3">
-                <i class="fa fa-home fa-2x rounded-circle"></i>
-                <h3>Great Idea</h3>
-                <p>Html Coding icons. SVG and PNG downloads. Get free icons or unlimited royalty-free icons with
-                    NounPro.</p>
-            </div>
-            <div class="col-sm-6 col-lg-3">
-                <i class="fa fa-home fa-2x rounded-circle"></i>
-                <h3>Great Idea</h3>
-                <p>Html Coding icons. SVG and PNG downloads. Get free icons or unlimited royalty-free icons with
-                    NounPro.</p>
-            </div>
-            <div class="col-sm-6 col-lg-3">
-                <i class="fa fa-home fa-2x rounded-circle"></i>
-                <h3>Great Idea</h3>
-                <p>Html Coding icons. SVG and PNG downloads. Get free icons or unlimited royalty-free icons with
-                    NounPro.</p>
-            </div>
+<!--End article view-->
 
-        </div>
-    </div>
-</div>
-<!--End Features-->
-
-<!--Start Company overview-->
-<div class="company text-center">
-    <div class="container">
-        <h1>Company overview</h1>
-        <p>A company overview is an essential part of a business plan. It's an overview of the most important points
-            about your company history management team, location, mission statement and legal structure mission
-            statement and legal structure.</p>
-        <h4>Let's Start Today</h4>
-        <button>View more</button>
-    </div>
-</div>
-<!--End Company overview-->
-
-<!--Start featured work-->
-<div class="featured-work text-center">
-    <div class="container">
-        <h1>Featured Work</h1>
-        <p>A company overview is an essential part of a business plan. It's an overview of the most important points
-            about your company history management team, location, mission statement and legal structure mission
-            statement and legal structure.</p>
-        <ul class="list-unstyled row">
-            <li data-class=".all" class="active col">All</li>
-            <li data-class=".websites" class="col">Websites</li>
-            <li data-class=".logos" class="col">Logos</li>
-            <li data-class=".graphic" class="col">Graphic</li>
-            <li data-class=".marketing" class="col">Marketing</li>
-            <li data-class=".videos" class="col">Videos</li>
-        </ul>
-    </div>
-    <div class="shuffle-images">
-        <div class="row">
-            <div class="col-sm">
-                <img class="all websites graphic" src="img/img-1.jpg" alt="img">
-            </div>
-            <div class="col-sm">
-                <img class="all websites logos" src="img/img-2.png" alt="img">
-            </div>
-            <div class="col-sm">
-                <img class="all logos" src="img/img-3.gif" alt="img">
-            </div>
-            <div class="col-sm">
-                <img class="all graphic websites" src="img/img-4.jpg" alt="img">
-            </div>
+<!--Start sugestion article-->
+<div class="sugestion-post">
+    <div class="content-sugestion container">
+        <div class="header">
+            <h1>MORE FROM NEW SCIENTIST</h1>
         </div>
         <div class="row">
-            <div class="col-sm">
-                <img class="all logos" src="img/img-5.jpg" alt="img">
-            </div>
-            <div class="col-sm">
-                <img class="all marketing" src="img/img-7.jpg" alt="img">
-            </div>
-            <div class="col-sm">
-                <img class="all logos videos marketing" src="img/img-1.jpg" alt="img">
-            </div>
-            <div class="col-sm">
-                <img class="all videos marketing" src="img/img-5.jpg" alt="img">
-            </div>
-        </div>
-    </div>
-</div>
-<!--End featured work-->
-
-<!--Start Latest post-->
-<div class="latest-post">
-    <div class="container">
-        <div class="header text-center">
-            <h1>Latest Post</h1>
-            <p>A company overview is an essential part of a business plan. It's an overview of the most important points
-                about your company history management team, location, mission statement and legal structure mission
-                statement and legal structure.</p>
-        </div>
-        <div class="row">
-            <div class="col-one col-sm-12 col-md-6 col-lg-4">
+            <div class="col-sm-12 col-md-4 col-lg-3">
                 <div class="card">
                     <img src="img/slide-3.jpg" class="card-img-top" alt="card-img">
                     <div class="card-body">
@@ -266,7 +287,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="col-sm-12 col-md-4 col-lg-3">
                 <div class="card">
                     <img src="img/slide-1.jpeg" class="card-img-top" alt="card-img">
                     <div class="card-body">
@@ -278,7 +299,19 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="col-sm-12 col-md-4 col-lg-3">
+                <div class="card">
+                    <img src="img/slide-2.jpg" class="card-img-top" alt="card-img">
+                    <div class="card-body">
+                        <h5>Card title</h5>
+                        <h6>March 24 2017</h6>
+                        <p>Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-3">
                 <div class="card">
                     <img src="img/slide-2.jpg" class="card-img-top" alt="card-img">
                     <div class="card-body">
@@ -293,144 +326,7 @@
         </div>
     </div>
 </div>
-<!--End Latest post-->
-
-<!--Start Testimonials-->
-<div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-        <img class="bg-profile" src="img/bg-profile.jpg" alt="img">
-        <div class="overlay"></div>
-        <div class="carousel-item active">
-            <div class="personal-info text-center">
-                <img src="img/profile.png" alt="profile-img">
-                <h3>Moomen Aldahdouh</h3>
-                <h6>Company Shift ICT</h6>
-                <p>Some quick example text to build on the card title and make up the bulk of
-                    the card's content card title and make up the bulk of.</p>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="personal-info text-center">
-                <img src="img/profile.png" alt="profile-img">
-                <h3>Mostafa Dalul</h3>
-                <h6>Company Shift ICT</h6>
-                <p>Some quick example text to build on the card title and make up the bulk of
-                    the card's content.</p>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="personal-info text-center">
-                <img src="img/profile.png" alt="profile-img">
-                <h3>John Noh</h3>
-                <h6>Company ICT</h6>
-                <p>Some quick example text to build on the card title and make up the bulk of
-                    the card's content the card's content.</p>
-            </div>
-        </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators"
-            data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators"
-            data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-
-    <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-    </div>
-</div>
-<!--End Testimonials-->
-
-<!--Start Pricing-->
-<div class="pricing-table text-center">
-    <div class="container">
-        <div class="header">
-            <h1>Pricing Table</h1>
-            <p>A company overview is an essential part of a business plan. It's an overview of the most important points
-                about your company history management team, location, mission statement and legal structure mission
-                statement and legal structure.</p>
-        </div>
-        <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5>Small Business</h5>
-                        <h6>Lorem Ipsum</h6>
-                        <h3>$99/<span>YEAR</span></h3>
-                        <p>Lorem Ipsum</p>
-                        <p>Lorem Ipsum</p>
-                        <p>Lorem Ipsum</p>
-                        <p>Lorem Ipsum</p>
-                        <p>Lorem Ipsum</p>
-                        <a href="#">Buy Now</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4">
-                <div class="card corporate-card">
-                    <div class="card-body">
-                        <h5>Corporate</h5>
-                        <h6>Lorem Ipsum</h6>
-                        <h2>$199/<span>YEAR</span></h2>
-                        <p>Lorem Ipsum</p>
-                        <p>Lorem Ipsum</p>
-                        <p>Lorem Ipsum</p>
-                        <p>Lorem Ipsum</p>
-                        <p>Lorem Ipsum</p>
-                        <a class="corporate-link" href="#">Buy Now</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5>Enterprise</h5>
-                        <h6>Lorem Ipsum</h6>
-                        <h3>$299/<span>YEAR</span></h3>
-                        <p>Lorem Ipsum</p>
-                        <p>Lorem Ipsum</p>
-                        <p>Lorem Ipsum</p>
-                        <p>Lorem Ipsum</p>
-                        <p>Lorem Ipsum</p>
-                        <a href="#">Buy Now</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--End Pricing-->
-
-<!--Start Why choose us-->
-<div class="why-choose-us">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="content col-sm-12 col-md-12 col-lg-6">
-                <img src="img/slide-3.jpg" alt="us">
-            </div>
-            <div class="content col-sm-12 col-md-12 col-lg-6">
-                <h1>Why Choose Us</h1>
-                <p>People are doing business with you because they know, like and trust you, period. The relationship
-                    and the experience are what open more doors, close more sales and land you more deals. This is a new
-                    economy that calls for a new approach Attention to Details It's our attention to the small stuff,
-                    scheduling of timelines and keen project management that makes us stand out from the You want
-                    results.<br><br> Only after we fully understand you and your customers, do we recommend a plan of
-                    attack.</p>
-                <a href="#">View more</a>
-            </div>
-        </div>
-    </div>
-</div>
-<!--End Why choose us-->
+<!--End sugestion article-->
 
 <!--Start Statistics-->
 <div class="statistics text-center">

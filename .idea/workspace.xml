@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="630d8969-fd69-42b2-bdb3-f76850a15dda" name="Default Changelist" comment="" />
+    <list default="true" id="630d8969-fd69-42b2-bdb3-f76850a15dda" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article-view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/about.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/article-view.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/blog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/image1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/image2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/image3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/image4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/image5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/image6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/image7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/slider1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/slider2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/slider3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/slider4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/slider5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/slider6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/slider7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/slider8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/slider9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/thumb-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/thumb-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/thumb-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/thumb-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,10 +45,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1wdHNnFklvnQozCdAWNTn8v7lIm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -23,15 +62,16 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MoomenS\WebstormProjects\MyWepPage\img" />
       <recent name="C:\Users\MoomenS\WebstormProjects\MyWepPage" />
       <recent name="C:\Users\MoomenS\WebstormProjects\MyWepPage\php" />
       <recent name="C:\Users\MoomenS\WebstormProjects\MyWepPage\js" />
-      <recent name="C:\Users\MoomenS\WebstormProjects\MyWepPage\img" />
       <recent name="C:\Users\MoomenS\WebstormProjects\MyWepPage\css" />
     </key>
   </component>
@@ -44,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1628781507925</updated>
       <workItem from="1628781508995" duration="1087000" />
-      <workItem from="1628782610688" duration="11793000" />
+      <workItem from="1628782610688" duration="33296000" />
     </task>
     <servers />
   </component>
@@ -56,10 +96,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1628781578236" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1628857362571">
+    <state x="607" y="310" key="Github.ShareDialog" timestamp="1628867383600">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1628857362571" />
+    <state x="607" y="310" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1628867383600" />
+    <state x="549" y="117" key="Github.UntrackedFilesDialog" timestamp="1628867394031">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="117" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1628867394031" />
+    <state x="478" y="145" width="870" height="592" key="find.popup" timestamp="1628936379524">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="478" y="145" width="870" height="592" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1628936379524" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1628876191224">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1628876191224" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1628858119892">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -1,0 +1,110 @@
+/*Start article body*/
+.article-view  .article-content{
+    padding: 40px 40px 40px 40px;
+}
+
+.article-view .writer{
+    color: #08526d;
+    font-family: "Akhbar MT", serif;
+}
+
+.article-view .article_by {
+    text-decoration: none;
+    color: #ec1c23;
+    font-weight: bold;
+}
+
+.article-view .category{
+    color: #08526d;
+    font-weight: bold;
+}
+
+.article-view .category .date{
+    margin-left: 4px;
+    color: #666666;
+    font-weight: normal;
+}
+
+.article-view .content-paragraph{
+    margin-top: 30px;
+}
+
+.article-view .filter-button a{
+    margin: 15px 15px 20px 0;
+    background-color: #08526d;
+}
+
+.article-view .filter-button .dropdown-menu a{
+    background-color: #fff;
+    padding: 10px;
+    margin: 0;
+}
+
+.article-view .filter-button .dropdown-menu a:hover{
+    background-color: #08526d;
+    color: #fff;
+}
+
+/*End article body*/
+
+
+/*Start sugestion-post post*/
+.sugestion-post .content-sugestion{
+    padding: 40px 0 40px 0;
+}
+.sugestion-post .card {
+    margin-bottom: 30px;
+}
+
+.sugestion-post .card:hover {
+    transform: scale(1.03);
+}
+
+.sugestion-post .row {
+    margin: 0;
+}
+
+.sugestion-post h1 {
+    font-weight: bold;
+    color: #000;
+    margin: 0 0 20px 10px ;
+}
+
+.sugestion-post .header p {
+    font-size: 18px;
+    color: #666666;
+    line-height: 2;
+    margin: 0 auto 40px;
+}
+
+.sugestion-post .card h5 {
+    color: #08526d;
+
+}
+
+.sugestion-post .card h6 {
+    color: #acacac;
+    font-size: 12px;
+}
+
+.sugestion-post .card p {
+    color: #666666;
+    font-size: 16px;
+}
+
+.sugestion-post .card a {
+    color: #ec1c23;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/*Responsive featured work for mobile  */
+@media (max-width: 576px) {
+    .sugestion-post {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+/*End sugestion-post post*/
